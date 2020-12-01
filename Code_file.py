@@ -1,3 +1,5 @@
+
+## missing number in a given sequential array
 def missing_number(array):
     array = [1, 2, 3, 4, 5, 7, 8, 9]
     m = len(array) + 1
@@ -5,6 +7,8 @@ def missing_number(array):
     print(total)
     return (total - sum(array))
 
+
+##Given an array find the pairs of array element whose sum is equal to given number
 def pair_array(sum):
     arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     count = 0
@@ -15,6 +19,8 @@ def pair_array(sum):
                 count += 1
     return count
 
+
+## validate whether a given number is part of fibonacci series
 def check_fibo(num):
     first = 0
     second = 1
@@ -28,6 +34,8 @@ def check_fibo(num):
     else:
         print("Not found")
 
+        
+##Given a string reverse each words of that string and print it, 
 def rev_word(string_text):
     empty_list = []
     for i in range(0,len(string_text)):
@@ -39,6 +47,7 @@ def rev_word(string_text):
                 empty_list.pop()
             print(end = " ")
 
+###Given a 6-digit number when multiplied by 2 has same digits as it was in original number.
 def check_num(num):
     new_num = num*2
     list_new = []
