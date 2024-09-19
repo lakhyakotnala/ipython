@@ -1,0 +1,41 @@
+trigger:
+- master
+
+pool:
+  vmImage: windows-latest
+
+variables:
+  buildConfiguration: 'Release'
+
+schedules:
+- cron: "0 */6 * * 1-5"
+  displayName: Run each 6 hours
+  always: true
+  branches:
+    include:
+    - master
+steps:
+        
+- task: DotNetCoreCLI@2
+  displayName: 'Build'
+  inputs:
+    command: 'build'
+- task: DotNetCoreCLI@2
+  displayName: 'Install PlayWright CLI'
+  inputs:
+    command: 'custom'
+    custom: 'tool'
+    arguments: 'install --global Microsoft.Playwright.CLI'
+
+- task: CmdLine@2
+  displayName: 'Install PlayWright'
+  inputs:
+    script: 'playwright install'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Test'
+  env:
+    PASSWORD: $(PASSWORD)
+  inputs:
+    command: 'test'
+    arguments: /p:settings=sauceDemo/.runsettings
