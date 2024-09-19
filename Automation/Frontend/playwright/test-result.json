@@ -1,0 +1,480 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\monika.konieczna\\Exploratory_Repos\\03_Playwright\\playwright-ts-api-testing\\playwright.config.ts",
+    "rootDir": "C:/Users/monika.konieczna/Exploratory_Repos/03_Playwright/playwright-ts-api-testing",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": "C:\\Users\\monika.konieczna\\Exploratory_Repos\\03_Playwright\\playwright-ts-api-testing\\global-setup.ts",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-result.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/monika.konieczna/Exploratory_Repos/03_Playwright/playwright-ts-api-testing/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/monika.konieczna/Exploratory_Repos/03_Playwright/playwright-ts-api-testing",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.39.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "apitest\\createBooking\\restful-booker.createBooking.test.ts",
+      "file": "apitest/createBooking/restful-booker.createBooking.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Create Booking",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 734,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-20T04:43:10.410Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3770cac8e7c4e09a5bd2-b732e6877ed81bc7c749",
+          "file": "apitest/createBooking/restful-booker.createBooking.test.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "apitest\\deleteBooking\\restful-booker.deleteBooking.test.ts",
+      "file": "apitest/deleteBooking/restful-booker.deleteBooking.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Delete Booking @delete",
+          "ok": true,
+          "tags": [
+            "delete"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 2452,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-20T04:43:10.419Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "743742a913ab42b99cec-5c61a76e6134fd750ad4",
+          "file": "apitest/deleteBooking/restful-booker.deleteBooking.test.ts",
+          "line": 15,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "apitest\\getBooking\\restful-booker.getBooking.test.ts",
+      "file": "apitest/getBooking/restful-booker.getBooking.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Get Booking By Lastname @get",
+          "ok": true,
+          "tags": [
+            "get"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 1592,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-20T04:43:10.419Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c420f95386d17f6059ad-a76766fc3b589425be30",
+          "file": "apitest/getBooking/restful-booker.getBooking.test.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "Get Booking By Firstname @get",
+          "ok": true,
+          "tags": [
+            "get"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 976,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-20T04:43:12.014Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c420f95386d17f6059ad-c9ec2ee70f05cf024e18",
+          "file": "apitest/getBooking/restful-booker.getBooking.test.ts",
+          "line": 42,
+          "column": 5
+        },
+        {
+          "title": "Get Booking By Checkin Date @get",
+          "ok": false,
+          "tags": [
+            "get"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "failed",
+                  "duration": 1217,
+                  "error": {
+                    "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\monika.konieczna\\Exploratory_Repos\\03_Playwright\\playwright-ts-api-testing\\apitest\\getBooking\\restful-booker.getBooking.test.ts:89:45",
+                    "location": {
+                      "file": "C:\\Users\\monika.konieczna\\Exploratory_Repos\\03_Playwright\\playwright-ts-api-testing\\apitest\\getBooking\\restful-booker.getBooking.test.ts",
+                      "column": 45,
+                      "line": 89
+                    },
+                    "snippet": "\u001b[0m \u001b[90m 87 |\u001b[39m   \u001b[36mconst\u001b[39m a \u001b[33m=\u001b[39m \u001b[33mID\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 88 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 89 |\u001b[39m   expect(responseAsString[\u001b[35m0\u001b[39m] \u001b[33m!==\u001b[39m undefined)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 90 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 91 |\u001b[39m   \u001b[36mif\u001b[39m (responseAsString[\u001b[35m0\u001b[39m] \u001b[33m!==\u001b[39m undefined \u001b[33m&&\u001b[39m a) {\u001b[0m\n\u001b[0m \u001b[90m 92 |\u001b[39m     expect(responseAsString[\u001b[35m0\u001b[39m])\u001b[33m.\u001b[39mtoHaveProperty(\u001b[32m\"bookingid\"\u001b[39m\u001b[33m,\u001b[39m \u001b[33m+\u001b[39ma)\u001b[33m;\u001b[39m\u001b[0m"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "C:\\Users\\monika.konieczna\\Exploratory_Repos\\03_Playwright\\playwright-ts-api-testing\\apitest\\getBooking\\restful-booker.getBooking.test.ts",
+                        "column": 45,
+                        "line": 89
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32mtrue\u001b[39m\nReceived: \u001b[31mfalse\u001b[39m\n\n\u001b[0m \u001b[90m 87 |\u001b[39m   \u001b[36mconst\u001b[39m a \u001b[33m=\u001b[39m \u001b[33mID\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 88 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 89 |\u001b[39m   expect(responseAsString[\u001b[35m0\u001b[39m] \u001b[33m!==\u001b[39m undefined)\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 90 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 91 |\u001b[39m   \u001b[36mif\u001b[39m (responseAsString[\u001b[35m0\u001b[39m] \u001b[33m!==\u001b[39m undefined \u001b[33m&&\u001b[39m a) {\u001b[0m\n\u001b[0m \u001b[90m 92 |\u001b[39m     expect(responseAsString[\u001b[35m0\u001b[39m])\u001b[33m.\u001b[39mtoHaveProperty(\u001b[32m\"bookingid\"\u001b[39m\u001b[33m,\u001b[39m \u001b[33m+\u001b[39ma)\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\monika.konieczna\\Exploratory_Repos\\03_Playwright\\playwright-ts-api-testing\\apitest\\getBooking\\restful-booker.getBooking.test.ts:89:45\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-20T04:43:12.992Z",
+                  "attachments": [],
+                  "errorLocation": {
+                    "file": "C:\\Users\\monika.konieczna\\Exploratory_Repos\\03_Playwright\\playwright-ts-api-testing\\apitest\\getBooking\\restful-booker.getBooking.test.ts",
+                    "column": 45,
+                    "line": 89
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "c420f95386d17f6059ad-fef480aa557abcd894cc",
+          "file": "apitest/getBooking/restful-booker.getBooking.test.ts",
+          "line": 69,
+          "column": 5
+        },
+        {
+          "title": "Get Booking By Checkout Date @get",
+          "ok": true,
+          "tags": [
+            "get"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 1348,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-20T04:43:14.644Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c420f95386d17f6059ad-83cce67a38939315a21c",
+          "file": "apitest/getBooking/restful-booker.getBooking.test.ts",
+          "line": 96,
+          "column": 5
+        },
+        {
+          "title": "Get Booking By ID @get",
+          "ok": true,
+          "tags": [
+            "get"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 1100,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-20T04:43:15.995Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c420f95386d17f6059ad-66c9f4754a627f098236",
+          "file": "apitest/getBooking/restful-booker.getBooking.test.ts",
+          "line": 123,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "apitest\\getBooking\\restful-booker.getBookings.test.ts",
+      "file": "apitest/getBooking/restful-booker.getBookings.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Get BookingIds",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 1543,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-20T04:43:10.468Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0272691100a6ce1a40f0-e207621c0b5428afa68c",
+          "file": "apitest/getBooking/restful-booker.getBookings.test.ts",
+          "line": 15,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "apitest\\smokeTests\\restful-booker.healthcheck.test.ts",
+      "file": "apitest/smokeTests/restful-booker.healthcheck.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "@smoke - Service HealthCheck",
+          "ok": true,
+          "tags": [
+            "smoke"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 500,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-20T04:43:11.156Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ab74f74f813e12ecc3a8-beae7d7a6509307f3127",
+          "file": "apitest/smokeTests/restful-booker.healthcheck.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "apitest\\updateBooking\\restful-booker.updateBooking.test.ts",
+      "file": "apitest/updateBooking/restful-booker.updateBooking.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Update Booking @put",
+          "ok": true,
+          "tags": [
+            "put"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1529,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  firstname: \u001b[32m'Krystian'\u001b[39m,\n  lastname: \u001b[32m'Wafel'\u001b[39m,\n  totalprice: \u001b[33m22\u001b[39m,\n  depositpaid: \u001b[33mtrue\u001b[39m,\n  bookingdates: { checkin: \u001b[32m'2023-10-18'\u001b[39m, checkout: \u001b[32m'2023-10-25'\u001b[39m },\n  additionalneeds: \u001b[32m'Towels'\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-10-20T04:43:11.663Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "03dbe4d146e0f4491156-a45e15b51f5150130052",
+          "file": "apitest/updateBooking/restful-booker.updateBooking.test.ts",
+          "line": 15,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2023-10-20T04:43:08.662Z",
+    "duration": 8457.651
+  }
+}
